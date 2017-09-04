@@ -14,7 +14,7 @@ Contains code from [gcuisinier/xdt4j](https://github.com/gcuisinier/xdt4j) (port
 
 ## Links
 
-* [Plugin page](https://plugins.jetbrains.com/plugin/TODO)
+* [Plugin page](https://plugins.jetbrains.com/plugin/10005--net-xdt-configuration-transformation-support)
 * [GitHub](https://github.com/maartenba/rider-plugin-xdt)
 * [Issues](https://github.com/maartenba/rider-plugin-xdt/issues)
 

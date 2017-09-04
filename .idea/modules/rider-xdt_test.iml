@@ -18,7 +18,6 @@
           <option name="pluginClasspaths">
             <array />
           </option>
-          <option name="version" value="true" />
         </compilerArguments>
       </configuration>
     </facet>
@@ -35,6 +34,15 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="rider-xdt_main" />
     <orderEntry type="library" name="Gradle: org.dom4j:dom4j:2.0.1" level="project" />
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Program Files/Java/jdk1.8.0_112/lib/tools.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="module-library">
       <library name="Gradle: com.jetbrains:riderRD:171.4456.2169">
         <CLASSES>
@@ -153,15 +161,6 @@
           <root url="jar://$MODULE_DIR$/../../build/riderRD-171.4456.2169/lib/xstream-1.4.8.jar!/" />
           <root url="jar://$MODULE_DIR$/../../build/riderRD-171.4456.2169/lib/xz-1.5.jar!/" />
           <root url="jar://$MODULE_DIR$/../../build/riderRD-171.4456.2169/lib/yjp-controller-api-redist.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="RUNTIME">
-      <library>
-        <CLASSES>
-          <root url="jar://C:/Program Files/Java/jdk1.8.0_112/lib/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

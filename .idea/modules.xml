@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rider-xdt.iml" filepath="$PROJECT_DIR$/.idea/modules/rider-xdt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rider-xdt_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rider-xdt_main.iml" group="rider-xdt" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rider-xdt_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rider-xdt_test.iml" group="rider-xdt" />
+    </modules>
+  </component>
+</project>

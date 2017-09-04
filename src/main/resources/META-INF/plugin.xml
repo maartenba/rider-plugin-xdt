@@ -1,0 +1,44 @@
+<!--suppress XmlUnboundNsPrefix, XmlUnboundNsPrefix -->
+<idea-plugin>
+  <id>be.maartenballiauw.rider.xdt</id>
+  <name>.NET XDT configuration transformation support</name>
+  <version>0.0.1.0</version>
+  <vendor url="https://blog.maartenballiauw.be">Maarten Balliauw</vendor>
+
+  <idea-version since-build="171.3655" until-build="171.3655.*" />
+
+  <depends>com.intellij.modules.rider</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+  </extensions>
+
+  <actions>
+    <group id="Xdt.ActionsRoot" text="Config transforms" popup="false">
+      <separator />
+
+      <group id="Xdt.ActionsGroup" popup="true" text="Config transforms" icon="/icons/Generate.png">
+        <action class="be.maartenballiauw.rider.xdt.actions.AddXdtTransformationAction" id="Xdt.AddXdtTransformationAction" />
+        <action class="be.maartenballiauw.rider.xdt.actions.PreviewXdtTransformationAction" id="Xdt.PreviewXdtTransformationAction" />
+        <action class="be.maartenballiauw.rider.xdt.actions.PerformXdtTransformationAction" id="Xdt.PerformXdtTransformationAction" />
+      </group>
+
+      <add-to-group group-id="SolutionExplorerPopupMenu" anchor="after" relative-to-action="RiderEditSource"/>
+    </group>
+  </actions>
+
+  <description><![CDATA[
+<p>Rider plugin that allows running configuration transformations (XDT)</p>
+<p><strong>Features</strong></p>
+<ul>
+<li>Add a new XDT configuration transformation file based on the solution configurations available</li>
+<li>Preview an XDT configuration transformation</li>
+<li>Perform an XDT configuration transformation</li>
+</ul>
+<p><strong>Links</strong></p>
+<ul>
+<li><a href="https://github.com/maartenba/rider-plugin-xdt">GitHub</a></li>
+<li><a href="https://github.com/maartenba/rider-plugin-xdt/issues">Issues</a></li>
+</ul>
+]]>
+  </description>
+</idea-plugin>

@@ -2,7 +2,7 @@
 <idea-plugin>
   <id>be.maartenballiauw.rider.xdt</id>
   <name>.NET XDT configuration transformation support</name>
-  <version>0.0.2.0</version>
+  <version>0.0.3.0</version>
   <vendor url="https://blog.maartenballiauw.be">Maarten Balliauw</vendor>
 
   <idea-version since-build="172.4144" until-build="172.4144.*" />
